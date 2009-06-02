@@ -1,6 +1,7 @@
 h1. Overview
 
-Very simple textmate bundle to display railsapi.com documentation for the current word.
+Very simple textmate bundle to display railsapi.com documentation for the current word.<br/>
+Can work with a local offline copy.
 
 
 h2. Install with Git:
