@@ -16,6 +16,7 @@ Pressing control-h within a ruby document will now bring up a railsapi page for 
 
 
 h2. Use offline:
+
 <pre>
 Download desired package from http://railsapi.com/
 Add a new shell variable from textmate's preferences - RAILS_API_LOCATION,
