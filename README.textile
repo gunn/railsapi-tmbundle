@@ -1,6 +1,6 @@
 h1. Overview
 
-Display documentation from railsapi.com for the current word, online or offline.
+Very simple textmate bundle to display railsapi.com documentation for the current word.
 
 
 h2. Install with Git:
@@ -18,7 +18,8 @@ Pressing control-h within a ruby document will now bring up a railsapi page for 
 h2. Use offline:
 <pre>
 Download desired package from http://railsapi.com/
-Add a new shell variable from textmate's preferences - RAILS_API_LOCATION, and set its value to the path of the base railsapi folder.
+Add a new shell variable from textmate's preferences - RAILS_API_LOCATION,
+set its value to the path of the base railsapi folder.
 </pre>
 
 Enjoy instant rails documentation from textmate!
