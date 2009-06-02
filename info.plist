@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>RailsAPI</string>
+	<key>ordering</key>
+	<array>
+		<string>E85C2922-6C2D-4B71-82FE-800E5922E0EF</string>
+	</array>
+	<key>uuid</key>
+	<string>07C209D2-5F6D-4A28-9239-FD166D600793</string>
+</dict>
+</plist>

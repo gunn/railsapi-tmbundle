@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+require ENV['TM_SUPPORT_PATH']+'/lib/exit_codes'
+url = (ENV['RAILS_API_LOCATION'] || "http://railsapi.com/doc/rails-v2.3.2.1") +"/index.html?q=" + ENV['TM_CURRENT_WORD']
+TextMate::exit_show_html "&lt;meta http-equiv='Refresh' content='0;URL=#{url}'&gt;"</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^h</string>
+	<key>name</key>
+	<string>Search RailsAPI</string>
+	<key>output</key>
+	<string>openAsNewDocument</string>
+	<key>scope</key>
+	<string>source.ruby.rails, text.html.ruby, text.haml</string>
+	<key>uuid</key>
+	<string>E85C2922-6C2D-4B71-82FE-800E5922E0EF</string>
+</dict>
+</plist>
